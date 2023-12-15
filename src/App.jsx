@@ -1,10 +1,10 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import Home from './component/Home'
+import Home from './component/Home.jsx'
 
-import CountryInfo from './component/countryInfo'
-import Logo from './component/Logo'
+import CountryInfo from './component/CountryInfo.jsx'
+import Logo from './component/Logo.jsx'
 
 
 function App() {
@@ -24,4 +24,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
