@@ -1,6 +1,6 @@
 // FuzzySearchCountries.js
 import React, { useState, useEffect } from 'react';
-import Fuse from 'fuse.js';
+
 
 const Search = ({ countries, onSearch }) => {
   const [searchTerm, setSearchTerm] = useState("");

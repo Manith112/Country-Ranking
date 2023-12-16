@@ -187,12 +187,37 @@ td{
     cursor: not-allowed;
   }
   /* details */
+  .country-body > .lan{
+    /* display: flex; */
+    flex-direction: column;
+  }
+  .country-pop{
+    padding-top: 10px;
+    display: flex;
+    gap: 20px;
+  }
+  .line{
+    padding: 0 10px;
+    color: black;
+    
+  }
+  .population , .area{
+    border-radius: 10px;
+    padding: 15px 20px;
+    background-color: #1B1D1F;
+  }
+  .country-name{
+    padding-top: 20px;
+    text-align: center;
+  }
+  .country-name p:first-child{
+    padding-bottom: 5px;
+    font-size: 25px;
+  }
   .detail{
     color: #ccc;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+    
+    
     margin: 60px 300px;
     
     /* padding-top: 40px; */
@@ -201,23 +226,39 @@ td{
     border-radius: 10px;
     padding-bottom: 30px;
   }
-  .detail > img{
+  .detail-country{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+  .detail-country > img{
     width: 200px;
     height: 150px;
     border-radius: 10px;
    margin-top: 30px;
   }
-  .text-details{
+  .neighbour{
+    padding: 30px;
+  }
+  .flag-neighbor{
     padding-top: 20px;
+    
   }
-  .country{
-    display: flex;
-    gap: 50px;
+  .flag-neighbor > img{
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 5px;
   }
+
   .country-body{
     display: flex;
-    gap: 10px;
-    margin-top: 15px;
+    border: 1px solid #282B30;
+    justify-content: space-between;
+    /* margin-top: 15px; */
+    padding: 30px;
   }
   .country-alt{
     display: flex;
@@ -231,6 +272,10 @@ td{
   }
   .tags-list{
     padding-left: 30px;
+   
+  }
+  .tag{
+    list-style: none;
   }
 /* tablet  */
   @media screen and (max-width: 1120px){
